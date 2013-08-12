@@ -1,5 +1,13 @@
 
-
+.idea
+.idea/*
 
 yiiauth
 yiiauth/*
+
+*/assets/*
+*/protected/runtime/*
+
+nbproject/private/*
+nbproject/project.xml
+*.iml
