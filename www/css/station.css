@@ -1,0 +1,324 @@
+
+a.station-link
+{
+    display: block;
+    text-decoration: none;
+    color: #000000;
+    text-shadow: #00008b;
+    font-size: 12px;
+    font-weight: bold;
+
+    margin: 0px;
+    padding: 0px;
+/*    height: 90px;
+    width: 74px;
+    z-index: 1;*/
+}
+
+a.station-link:visited
+{
+    color: #000000;
+}
+
+div.station
+{
+    background: url("/themes/rmx/img/station/monitor_64.png") no-repeat;
+    height: 64px;
+    width: 64px;
+    margin: 5px;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+div.station-view
+{
+    display: inline-block;
+    border-width: 2px;
+    border-color: #0099ff;
+    background-color: #80CFFF;
+    margin: 2px;
+    padding: 5px;
+/*    height: 104px;*/
+    height: 84px;
+    width: 74px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+div.station-view:hover
+{
+    border-width: 2px;
+    border-color: #0099ff;
+    background-color: #90dFFF;
+}
+
+div.station-name
+{
+    margin: 0px;
+    margin-top: 4px;
+    padding: 0px;
+    height: 15px;
+    width: 64px;
+
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    text-shadow: #00008b;
+    font-size: 12px;
+    font-weight: bold;
+
+    cursor: inherit;
+}
+
+/*
+#station1
+{
+    background-color: #add8e6;
+    width: 64px;
+    height: 64px;
+}*/
+
+div.printer-color
+{
+    background: url("/themes/rmx/img/station/print_32.png") no-repeat;
+}
+
+div.printer-bn
+{
+    background: url("/themes/rmx/img/station/printer.png") no-repeat;
+}
+
+div.printer
+{
+    background-size: 30px 30px;
+    height: 30px;
+    width: 30px;
+    margin: 0px;
+    margin-top: 4px;
+    padding: 0px;
+}
+
+div.printer-view
+{
+/*    border-width: 2px;
+    border-color: #0099ff;
+    background-color: #80CFFF;*/
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 35px;
+ /*   padding-left: 35px;*/
+    height: 30px;
+    width: 30px;
+
+}
+
+div.printer-hide
+{
+    display: none;
+}
+div.user
+{
+    background: url("/themes/rmx/img/station/user_48.png") no-repeat;
+    background-size: 30px 30px;
+    height: 30px;
+    width: 30px;
+    margin: 0px;
+    margin-top: 1px;
+    padding: 0px;
+}
+
+div.user-view
+{
+    /*    border-width: 2px;
+        border-color: #0099ff;
+        background-color: #80CFFF;*/
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 35px;
+    height: 30px;
+    width: 30px;
+}
+
+div.user-hide
+{
+    display: none;
+}
+
+div.station-status
+{
+    display: table;
+    margin: 7px;
+    padding: 3px;
+    background-color: #f5f5f5;
+}
+
+div.label-row
+{
+    display: table-row;
+    height: 20px;
+}
+
+div.label-container
+{
+    display: table-column;
+
+}
+
+label.label-text
+{
+    display: table-cell;
+    width: 100px;
+    font-weight: bold;
+}
+
+div.value-container
+{
+    display: table-column;
+}
+
+label.value-text
+{
+    display: table-cell;
+    text-align: right;
+}
+
+.text-base
+{
+    height: 17px;
+    font-size: 12px;
+    margin: 1px;
+    padding: 1px;
+}
+
+
+/*
+*
+* quick buttons
+*
+*/
+
+div.quick-buttons
+{
+    display: none;
+    margin: 0px;
+    margin-top: 1px;
+ /*   margin-left: -2px;
+    margin-right: -4px;*/
+}
+
+div.quick-button
+{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0px;
+    padding: 0px;
+    border-width: 0px;
+    z-index: 20;
+/*    cursor: default;*/
+
+    margin-left: -3px;
+    margin-right: -2px;
+}
+
+div.quick-button:hover
+{
+    cursor: default;
+
+}
+
+div.poweron
+{
+    background: url("/themes/rmx/img/station/StandBy.png") no-repeat;
+    background-size: 20px 20px;
+}
+
+div.shutdown
+{
+    background: url("/themes/rmx/img/station/Shutdown.png") no-repeat;
+    background-size: 20px 20px;
+}
+
+div.reboot
+{
+    background: url("/themes/rmx/img/station/Restart.png") no-repeat;
+    background-size: 20px 20px;
+}
+
+div.unblock
+{
+    background: url("/themes/rmx/img/station/lock_open.png") no-repeat;
+    background-size: 24px 24px;
+    margin-left: -5px;
+    margin-top: -4px;
+    height: 24px;
+    width: 24px;
+}
+
+div.block
+ {
+    background: url("/themes/rmx/img/station/lock_closed.png") no-repeat;
+    background-size: 24px 24px;
+    margin-left: -3px;
+ }
+
+div.maintenence
+{
+    background: url("/themes/rmx/img/station/Tools.png") no-repeat;
+    background-size: 20px 20px;
+}
+
+a.quick-button-link
+{
+    cursor: default;
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+
+/**
+ *
+ *
+ *
+ */
+.station-page
+{
+    background-color: #ffffff;
+}
+
+.station-page-blocked
+{
+    background-color: #000000;
+    margin: 0px;
+}
+
+.text-blocked
+{
+    color: #ffffff;
+    font-size: 550px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 0px;
+}
+
+.text-unblocked
+{
+    color: #000000;
+    font-size: 200px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 0px;
+}
+
+/*
+ *
+ *
+ *
+ */
+div.hidden
+{
+    display: none;
+}
+

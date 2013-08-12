@@ -1,0 +1,160 @@
+@CHARSET "UTF-8";
+
+.table-action
+{
+	
+}
+
+.row-action
+{
+	
+}
+/*
+.cell-action
+{
+	display: inline-block;
+	width: 300px;
+	height: 60px;
+	border-width: 1px;
+	border-style: solid;
+	margin: 2px;
+	cursor: pointer;
+}
+*/
+.cell-action-disable
+{
+	border-color: #eeeeee;
+	background-color: #f5f5f5;	
+	cursor: crosshair;
+}
+
+.cell-action-enable
+{
+	border-color: #aaaaaa;
+	background-color: #dFdFdF;
+}
+
+.cell-action-hide
+{
+	display: none;
+}
+
+.cell-action-enable:hover
+{
+	background-color: #f5f5f5;	
+}
+
+.img-action
+{
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	margin: 0px;
+	margin-top: 14px;
+	margin-left: 14px;
+	cursor: inherit;
+}
+
+.label-action
+{
+	display: inline-block;
+	text-align: center;
+	width: 140px;
+	font-size: 28px;
+	cursor: inherit;
+}
+
+.label-action-disable
+{
+/*	display: inline-block;
+	text-align: center;
+	width: 140px;
+	font-size: 32px;*/
+	cursor: inherit;
+	color: #aaaaaa;
+}
+
+#captura-img
+{
+	background: url('/images/32X32/file_edit.png') no-repeat top right;
+}
+
+#imprime-img
+{
+	background: url('/images/32X32/print.png') no-repeat top right;
+}
+
+#entrega-img
+{
+	background: url('/images/32X32/mail.png') no-repeat top right;
+}
+
+#archiva-img
+{
+	background: url('/images/32X32/iFolder_add.png') no-repeat top right;
+}
+
+#cancela-img
+{
+	background: url('/images/32X32/file_attention.png') no-repeat top right;
+}
+
+#historico-img
+{
+	background: url('/images/32X32/file_explore.png') no-repeat top right;
+}
+
+.link-action
+{
+	text-decoration: none;
+	color: #555555;
+	cursor: inherit;
+}
+
+.link-action:hover, .link-action:focus
+{
+	text-decoration: none;
+	color: #555555;
+}
+
+.cell-action
+{
+	display: inline-block;
+	width: 360px;
+	height: 60px;
+	border-width: 1px;
+	border-style: solid;
+	margin: 2px;
+	cursor: pointer;
+}
+
+.label-action
+{
+	display: inline-block;
+	text-align: center;
+	width: 350px;
+	font-size: 28px;
+	cursor: inherit;
+	padding: 15px 5px;
+}
+
+.cell-action-small
+{
+    display: inline-block;
+    width: 260px;
+    height: 50px;
+    border-width: 1px;
+    border-style: solid;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.label-action-small
+{
+    display: inline-block;
+    text-align: center;
+    width: 250px;
+    font-size: 24px;
+    cursor: inherit;
+    padding: 15px 5px;
+}
